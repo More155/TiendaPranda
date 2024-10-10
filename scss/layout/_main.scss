@@ -1,0 +1,105 @@
+.playfair-display-Font {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  body {
+    background-color: bisque;
+    @extend%flexBasico;
+    min-height: 100vh;
+    font-family: 'Playfair Display', serif; 
+  }
+
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h1{
+    text-align: center;
+    color: rgb(97, 205, 160);
+    background-color: cornsilk;
+    border: 1px solid #4eb58e;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    @include box(20px, 20px); 
+    }
+  
+  h2 {
+    color: rgb(206, 116, 86);
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 700;
+    @include box(20px, 20px); 
+  }
+  
+  button{
+    max-width: fit-content;
+  }
+  
+  .descuento {
+    text-decoration: line-through;
+    color: red; 
+  }
+  
+  .precioNuevo {
+    text-decoration: underline;
+    color: green; 
+  }
+  
+  .portada-Prana{
+    display: flex;
+    justify-content: center;
+    &:hover{
+      transform:scale(1.1); 
+    }  
+    img{
+      width: 400px;
+      height: auto;
+    }
+  }
+  
+  .wrapper {
+    @extend%flexBasico;
+    flex: 1;
+  }
+  
+  .contenedor-imagenes {
+    @extend%flexBasico;
+    gap: 20px;
+  }
+  
+  .img1, .img2, .img3 {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
+  
+  .imgPuffer{
+    @include sizes(300px, auto);
+  }
+  
+  .imgCuerina{
+    @include sizes(300px, auto);
+  }
+  
+  .imgBuzo{
+    @include sizes(300px, auto);
+  }
+  
+  .img1 img{
+    @include sizes(350px, auto);
+  }
+  
+  .img2 img{
+    @include sizes(350px, auto);
+  }
+  

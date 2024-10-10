@@ -1,0 +1,141 @@
+.contenedor-imagenes, .wrapper, body {
+  display: flex;
+  flex-direction: column;
+}
+
+.playfair-display-Font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: bisque;
+  min-height: 100vh;
+  font-family: "Playfair Display", serif;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(97, 205, 160);
+  background-color: cornsilk;
+  border: 1px solid #4eb58e;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(206, 116, 86);
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 700;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  max-width: fit-content;
+}
+
+.descuento {
+  text-decoration: line-through;
+  color: red;
+}
+
+.precioNuevo {
+  text-decoration: underline;
+  color: green;
+}
+
+.portada-Prana {
+  display: flex;
+  justify-content: center;
+}
+.portada-Prana:hover {
+  transform: scale(1.1);
+}
+.portada-Prana img {
+  width: 400px;
+  height: auto;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.contenedor-imagenes {
+  gap: 20px;
+}
+
+.img1, .img2, .img3 {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.img1 img, .img2 img, .img3 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imgPuffer {
+  width: 300px;
+  height: auto;
+}
+
+.imgCuerina {
+  width: 300px;
+  height: auto;
+}
+
+.imgBuzo {
+  width: 300px;
+  height: auto;
+}
+
+.img1 img {
+  width: 350px;
+  height: auto;
+}
+
+.img2 img {
+  width: 350px;
+  height: auto;
+}
+
+form {
+  display: grid;
+  grid-column: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+}
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+footer:hover {
+  text-decoration: underline;
+}
+
+body, .wrapper, .contenedor-imagenes {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

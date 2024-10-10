@@ -1,0 +1,14 @@
+@mixin sizes($width, $heigth){
+   width: $width;
+   height: $heigth;
+}
+
+@mixin box ($gap, $padding){
+    gap: $gap;
+    padding: $padding;
+}
+
+%flexBasico{
+    display: flex;
+    flex-direction: column;
+}
